@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/clv"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ball_red_widget">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Время до дня Z"
+        android:paddingLeft="70px"
+        android:paddingTop="15px"
+        android:textColor="#FFFFFF"
+        android:textSize="50px" />
+
+    <TextView
+    android:id="@+id/yearCounter"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="0"
+    android:paddingLeft="70px"
+    android:paddingTop="15px"
+    android:textColor="#FFFFFF"
+    android:textSize="50px" />
+
+<TextView
+    android:id="@+id/dayCounter"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="0"
+    android:paddingLeft="70px"
+    android:paddingTop="15px"
+    android:textColor="#FFFFFF"
+    android:textSize="50px"/>
+
+<TextView
+android:id="@+id/hmCounter"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="00 : 00"
+    android:paddingLeft="50px"
+    android:textColor="#FFFFFF"
+    android:textSize="50px"/>
+
+<TextView
+
+android:id="@+id/sCounter"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:paddingLeft="110px"
+    android:textColor="#FFFFFF"
+    android:textSize="50px"/>
+    </LinearLayout>
